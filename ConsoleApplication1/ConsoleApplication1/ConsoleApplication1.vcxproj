@@ -129,9 +129,11 @@
   <ItemGroup>
     <ClCompile Include="cat.cpp" />
     <ClCompile Include="ConsoleApplication1.cpp" />
+    <ClCompile Include="owner.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="cat.h" />
+    <ClInclude Include="owner.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
